@@ -195,6 +195,7 @@ django-celery-beat = "^2.6.0"
 psycopg2-binary = "^2.9.9"
 qrcode = "^7.4.2"
 argon2-cffi = "^23.1.0"
+logto = "^0.2.1"
 
 
 [tool.poetry.group.dev.dependencies]

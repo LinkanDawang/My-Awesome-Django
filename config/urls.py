@@ -22,6 +22,7 @@ urlpatterns = [
     # User management
     path("users/", include("awesome_django.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
+    path("oauth/", include("awesome_django.oauth.urls", namespace="oauth")),
     # Your stuff: custom urls includes go here
     # ...
     # Media files

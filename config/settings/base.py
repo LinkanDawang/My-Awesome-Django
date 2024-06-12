@@ -74,10 +74,13 @@ DJANGO_APPS = [
 THIRD_PARTY_APPS = [
     "crispy_forms",
     "crispy_bootstrap5",
+    "allauth_ui",
     "allauth",
     "allauth.account",
     "allauth.mfa",
     "allauth.socialaccount",
+    "allauth.socialaccount.providers.github",
+    "widget_tweaks",
     "django_celery_beat",
     "rest_framework",
     "rest_framework.authtoken",

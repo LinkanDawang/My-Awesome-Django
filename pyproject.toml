@@ -197,6 +197,9 @@ qrcode = "^7.4.2"
 argon2-cffi = "^23.1.0"
 logto = "^0.2.1"
 django-simpleui = "^2024.4.1"
+requests = "^2.32.3"
+django-allauth-ui = "^0.3.6"
+django-widget-tweaks = "^1.5.0"
 
 
 [tool.poetry.group.dev.dependencies]

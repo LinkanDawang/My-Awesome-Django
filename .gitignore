@@ -333,4 +333,4 @@ awesome_django/media/
 .env
 .envs/*
 !.envs/.local/
-!/*.sqlite3
+*.sqlite3
